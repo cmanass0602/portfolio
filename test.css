@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+.A1 {
+    background-color: rgba(0,0,0,.55);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(255,255,255,.54);
+    z-index: 99;
+}
+
+.A1 .nav-link {
+  border-bottom: 1px, solid, transparent;
+  transition: padding-bottom .4s ease-in-out, border-color .3 ease;
+}
+.A1 .nav-link:hover {
+ padding-bottom: 20px;
+ border-bottom-color:var(--bs-teal) ;
+  }
+
+.btn-order {
+color: var(--bs-teal);
+border-color: var(--bs-teal);
+transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active{
+    color: white;
+    background-color:var(--bs-teal) ;
+}
+
+.redressed {
+	font-family: 'Redressed', cursive;
+  color: white;
+}
+
+.merriweather {
+	font-family: 'Merriweather', serif;
+}
+.A2 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('chmc.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+.order-form {
+	height: 500px;
+}
+ul.a {
+  list-style-type: square;
+}
+
+.A2 .banner-desc h1 {
+	font-size: 48px;
+	font-weight: 400;
+	color: #fff;
+} 
+.A4 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('gimbal-stabilizer-7224727.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 1800px;
+}
+.A5 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('sunset-7483125.jpg') center center fixed no-repeat;
+	background-size: cover;
+	height: 300px;
+}
